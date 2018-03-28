@@ -1,0 +1,35 @@
+.container{
+  display:flex;
+  flex-wrap: wrap;
+}
+.box{
+  width:100%;
+}
+.blue{
+  background-color:blue;
+}
+.green{
+  background-color:green;
+}
+.yellow{
+  background-color:yellow;
+}
+@media only screen and (min-width:450px){
+  .blue{
+    width:25%;
+  }
+  .green{
+    width:75%;
+  }
+}
+@media only screen and (min-width:550px){
+  .blue{
+    width:25%;
+  }
+  .green{
+    width:50%;
+  }
+  .yellow{
+    width:25%;
+  }
+}
